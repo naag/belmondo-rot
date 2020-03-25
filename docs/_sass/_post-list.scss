@@ -36,12 +36,13 @@
 
 .post-link__heading {
   display: block;
-  margin-right: 4em;
+  width: 100%;
+  text-align: center;
   @media (min-width: $on-tablet) {
     padding: .25em 0;
   }
   h1 {
-    font-size: 1em;
+    font-size: 2em;
     margin-bottom: 0;
     margin-top: 0;
   }

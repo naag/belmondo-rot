@@ -2,6 +2,7 @@
   box-sizing: border-box;
   position: relative;
   text-align: center;
+  margin-bottom: 5rem;
 }
 
 .site-masthead h1 {
@@ -12,6 +13,10 @@
   @media (min-width: $on-tablet) {
     font-size: 6em;
   }
+}
+
+.site-masthead a {
+  text-decoration: none;
 }
 
 .site-masthead h2 {

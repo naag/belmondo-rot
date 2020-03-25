@@ -1,7 +1,63 @@
-$brand-color:         #fede00;
+/* Color Theme Swatches in Hex */
+$Fat-Egg-1-hex: #123273;
+$Fat-Egg-2-hex: #2C6CBF;
+$Fat-Egg-3-hex: #307CBF;
+$Fat-Egg-4-hex: #F2E85E;
+$Fat-Egg-5-hex: #D9D166;
+
+/* Color Theme Swatches in RGBA */
+$Fat-Egg-1-rgba: rgba(18,50,114, 1);
+$Fat-Egg-2-rgba: rgba(43,107,191, 1);
+$Fat-Egg-3-rgba: rgba(47,124,191, 1);
+$Fat-Egg-4-rgba: rgba(242,232,94, 1);
+$Fat-Egg-5-rgba: rgba(216,209,101, 1);
+
+/* Color Theme Swatches in HSLA */
+$Fat-Egg-1-hsla: hsla(219, 72, 26, 1);
+$Fat-Egg-2-hsla: hsla(213, 62, 46, 1);
+$Fat-Egg-3-hsla: hsla(208, 60, 46, 1);
+$Fat-Egg-4-hsla: hsla(56, 85, 66, 1);
+$Fat-Egg-5-hsla: hsla(56, 60, 62, 1);
+
+
+
+/* Color Theme Swatches in Hex */
+$El-Gusano-Taquería-1-hex: #F20530;
+$El-Gusano-Taquería-2-hex: #D9043D;
+$El-Gusano-Taquería-3-hex: #F2295F;
+$El-Gusano-Taquería-4-hex: #CCD3D9;
+$El-Gusano-Taquería-5-hex: #038C65;
+
+/* Color Theme Swatches in RGBA */
+$El-Gusano-Taquería-1-rgba: rgba(242,4,48, 1);
+$El-Gusano-Taquería-2-rgba: rgba(216,4,60, 1);
+$El-Gusano-Taquería-3-rgba: rgba(242,41,94, 1);
+$El-Gusano-Taquería-4-rgba: rgba(203,210,216, 1);
+$El-Gusano-Taquería-5-rgba: rgba(2,140,101, 1);
+
+/* Color Theme Swatches in HSLA */
+$El-Gusano-Taquería-1-hsla: hsla(348, 96, 48, 1);
+$El-Gusano-Taquería-2-hsla: hsla(343, 96, 43, 1);
+$El-Gusano-Taquería-3-hsla: hsla(343, 88, 55, 1);
+$El-Gusano-Taquería-4-hsla: hsla(208, 14, 82, 1);
+$El-Gusano-Taquería-5-hsla: hsla(163, 96, 28, 1);
+
+$color-1:             $Fat-Egg-1-rgba;
+$color-2:             $Fat-Egg-2-rgba;
+$color-3:             $Fat-Egg-3-rgba;
+$color-4:             $Fat-Egg-4-rgba;
+$color-5:             $Fat-Egg-5-rgba;
+
+$color-bar-1:         #7197C2;
+$color-bar-2:         #4B6582;
+$color-bar-3:         #263342;
+$color-bar-4:         #78A0CF;
+$color-bar-5:         #6283A8;
+
+$brand-color:         $color-4;
 $highlight:           lighten($brand-color, 35%);
-$text-color:          #0b0404;
-$muted-text-color:    #64644B;
+$text-color:          $color-1;
+$muted-text-color:    $color-1;
 $font-family:         "EB Garamond", Garamond, "Times New Roman", serif;
 
 $on-bigphone:         375px;
