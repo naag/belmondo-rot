@@ -1,5 +1,6 @@
 .post-list {
-  margin: 1em 0;
+  display: flex;
+  flex-direction: column;
   list-style: none;
   &:hover,
   &:focus-within {
@@ -7,10 +8,34 @@
       opacity: .6;
     }
   }
+
+  @media (min-width: $on-laptop) {
+    flex-direction: row;
+  }
 }
 
 .post-list li {
-  margin-bottom: 1em;
+  margin: 0 10px;
+  width: 250px;
+
+  @media (min-width: $on-phone) {
+    width: ($on-phone - 50px);
+  }
+
+  @media (min-width: $on-laptop) {
+    width: ($on-phone - 20px);
+  }
+}
+
+.post-list li a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.post-list li img {
+  width: 100%;
+  margin: 0;
 }
 
 .post-link {
@@ -18,13 +43,12 @@
   display: flex;
   flex-direction: column-reverse;
   text-decoration: none;
-  padding: .25em;
   transition: opacity .125s ease-in-out;
   &:hover,
   &:focus {
     opacity: 1 !important;
   }
-  @media (min-width: $on-tablet) {
+  @media (min-width: $on-phone) {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -36,9 +60,8 @@
 
 .post-link__heading {
   display: block;
-  width: 100%;
   text-align: center;
-  @media (min-width: $on-tablet) {
+  @media (min-width: $on-phone) {
     padding: .25em 0;
   }
   h1 {

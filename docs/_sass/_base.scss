@@ -4,6 +4,26 @@ body {
   font-family: $font-family;
   font-size: 1.3125em;
   line-height: 1.5;
+  margin: 0 auto;
+
+  width: $on-phone;
+
+  @media (min-width: $on-laptop) {
+    width: $on-laptop;
+  }
+}
+
+.container {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  width: ($on-phone - $container-padding);
+
+  @media (min-width: $on-laptop) {
+    width: ($on-laptop - $container-padding);
+  }
 }
 
 h1 {
@@ -112,12 +132,6 @@ figcaption {
   @include divider;
 }
 
-.home {
-  max-width: 24em;
-  margin: auto;
-  padding: 1em 1em 4em 1em;
-}
-
 .content-title {
   font-size: 2em;
   margin-bottom: 2em;
@@ -158,39 +172,4 @@ figcaption {
     border-color: $text-color;
     margin-top: 0;
   }
-}
-
-.color-bar {
-  display: flex;
-  width: $on-tablet;
-  margin: -1rem auto 0 auto;
-
-  div {
-    height: 0.7rem;
-  }
-}
-
-.color-bar-1 {
-  width: 18%;
-  background-color: $color-bar-1;
-}
-
-.color-bar-2 {
-  width: 12%;
-  background-color: $color-bar-2;
-}
-
-.color-bar-3 {
-  width: 23%;
-  background-color: $color-bar-3;
-}
-
-.color-bar-4 {
-  width: 29%;
-  background-color: $color-bar-4;
-}
-
-.color-bar-5 {
-  width: 18%;
-  background-color: $color-bar-5;
 }

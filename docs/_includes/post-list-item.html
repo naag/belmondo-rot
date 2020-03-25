@@ -2,9 +2,9 @@
   <a href="{{ post.url | absolute_url }}" class="post-link">
     <div class="post-link__heading">
       {% unless post.title == "" %}
-          <h1 class="post-link__title">      
-            {{ post.title }}
-          </h1>
+        <h1 class="post-link__title">      
+          {{ post.title }}
+        </h1>
       {% else %}
         {% include post-excerpt.html %}
       {% endunless %}
@@ -12,5 +12,6 @@
         {% include post-excerpt.html %}
       {% endif %}
     </div>
+    <img src="{{ post.image.src }}" alt="{{ post.image.title }}" />
   </a>
 </li>

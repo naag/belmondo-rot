@@ -1,17 +1,18 @@
 .site-masthead {
-  box-sizing: border-box;
-  position: relative;
-  text-align: center;
-  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .site-masthead h1 {
-  font-size: 3em;
-  margin-bottom: 0;
-  margin-top: 1em;
-  padding: 0 2rem;
-  @media (min-width: $on-tablet) {
-    font-size: 6em;
+  font-family: 'Kristi';
+  font-size: 2em;
+  margin: 0 0 1rem 0;
+
+  @media (min-width: $on-laptop) {
+    font-size: 4em;
   }
 }
 
@@ -24,7 +25,39 @@
   font-size: 1.25em;
   margin: 0;
   padding: 0 2rem;
-  @media (min-width: $on-tablet) {
-    font-size: 3em;
+}
+
+.color-bar {
+  display: flex;
+  width: 100%;
+  margin: -1rem 0 0 0;
+
+  div {
+    height: 0.5rem;
   }
+}
+
+.color-bar-1 {
+  width: 18%;
+  background-color: $color-bar-1;
+}
+
+.color-bar-2 {
+  width: 12%;
+  background-color: $color-bar-2;
+}
+
+.color-bar-3 {
+  width: 23%;
+  background-color: $color-bar-3;
+}
+
+.color-bar-4 {
+  width: 29%;
+  background-color: $color-bar-4;
+}
+
+.color-bar-5 {
+  width: 18%;
+  background-color: $color-bar-5;
 }

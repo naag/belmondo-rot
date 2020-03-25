@@ -11,6 +11,7 @@
     {% if site.description %}<meta name="description" content="{{ site.description }}">{% endif %}  
 
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | absolute_url }}?{{ site.time | date: '%s%N' }}">
+    <link href="https://fonts.googleapis.com/css?family=Kristi|Libre+Barcode+39+Extended+Text|Libre+Barcode+39+Text|Mrs+Saint+Delafield|Swanky+and+Moo+Moo&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Kristi|Libre+Barcode+39+Extended+Text|Libre+Barcode+39+Text|Mrs+Saint+Delafield|Swanky+and+Moo+Moo&display=swap" rel="stylesheet">
 
     <link rel="apple-touch-icon" href="{{ site.icon }}">
 
@@ -20,30 +21,30 @@
 
   </head>
   <body>
+    <div class="container">
+      {% if page.layout == 'home' %}
+        <a href="#main" class="skip-navigation">
+          Skip to list of posts
+        </a>
+      {% else %}
+        <a href="#main" class="skip-navigation">
+          Skip to content
+        </a>
+      {% endif %}
 
-    {% if page.layout == 'home' %}
-      <a href="#main" class="skip-navigation">
-        Skip to list of posts
-      </a>
-    {% else %}
-      <a href="#main" class="skip-navigation">
-        Skip to content
-      </a>
-    {% endif %}
+      {{ content }}
 
-    {{ content }}
+      {% unless site.hide_search %}
+        {% include search.html %}
+      {% endunless %}
 
-    {% unless site.hide_search %}
-      {% include search.html %}
-    {% endunless %}
-
-    {% unless site.hide_credits %}
-      <aside class="site-credits">
-        <p>
-          <small><a href="https://github.com/patdryburgh/hitchens">Hitchens Theme</a> powered by <a href="http://jekyllrb.com">Jekyll</a></small>
-        </p>
-      </aside>
-    {% endunless %}
-
+      {% unless site.hide_credits %}
+        <aside class="site-credits">
+          <p>
+            <small><a href="https://github.com/patdryburgh/hitchens">Hitchens Theme</a> powered by <a href="http://jekyllrb.com">Jekyll</a></small>
+          </p>
+        </aside>
+      {% endunless %}
+    </div>
   </body>
 </html>
