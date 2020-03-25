@@ -61,9 +61,12 @@
 .post-link__heading {
   display: block;
   text-align: center;
+  font-family: $font-family-deco;
+
   @media (min-width: $on-phone) {
     padding: .25em 0;
   }
+
   h1 {
     font-size: 2em;
     margin-bottom: 0;

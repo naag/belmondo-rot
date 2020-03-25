@@ -58,7 +58,8 @@ $brand-color:         $color-4;
 $highlight:           lighten($brand-color, 35%);
 $text-color:          $color-1;
 $muted-text-color:    $color-1;
-$font-family:         'Kristi', "EB Garamond", Garamond, "Times New Roman", serif;
+$font-family:         "EB Garamond", Garamond, "Times New Roman", serif;
+$font-family-deco:    'Kristi', serif;
 
 $on-phone:            320px;
 $on-laptop:           740px;
