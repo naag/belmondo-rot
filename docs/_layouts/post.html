@@ -20,7 +20,18 @@ layout: default
   </div>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <img src="{{ page.image.src }}" alt="{{ page.image.title }}" />
+    {% if page.audio %}
+      <div class="audio-container">
+        <audio id="page-audio" src="{{ page.audio }}" preload="auto"></audio>
+        <img id="page-audio-image" src="{{ page.image.src }}" alt="{{ page.image.title }}" />
+        <div class="progress"></div>
+        <img class="paused" src="{{ 'assets/images/play.png' | absolute_url }}" />
+        <img class="playing" src="{{ 'assets/images/pause.png' | absolute_url }}" />
+      </div>
+    {% else %}
+      <img src="{{ page.image.src }}" alt="{{ page.image.title }}" />
+    {% endif %}
+
     {{ content }}
   </div>
 
