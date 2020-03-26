@@ -2,7 +2,7 @@
   background: white;
   margin: 2em auto;
   padding: 2em 0;
-  box-shadow: 12px 18px 24px rgba(darken($brand-color, 50%), .1);
+  box-shadow: 12px 18px 24px rgba(darken($brand-color, 50%), .2);
 
   @media (min-width: $on-phone) {
     width: ($on-phone - 50px);
@@ -28,8 +28,6 @@
 }
 
 .post p {
-  text-align: justify;
-  text-justify: inter-word;
   margin-bottom: 1rem;
 }
 
@@ -64,4 +62,42 @@
 
 .post-content audio {
   margin-top: 1rem;
+}
+
+.audio-container {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.audio-container .progress {
+  width: 100%;
+  height: 15px;
+  background: $brand-color;
+}
+
+.audio-container .paused {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+}
+
+.audio-container .playing {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  display: none;
+}
+
+#page-audio-image {
+  margin-bottom: 1rem;
 }
