@@ -2,7 +2,7 @@
   background: white;
   margin: 2em auto;
   padding: 2em 0;
-  box-shadow: 12px 18px 24px rgba(darken($brand-color, 50%), .2);
+  box-shadow: 12px 18px 24px rgba(darken($brand-color, 50%), .1);
 
   @media (min-width: $on-phone) {
     width: ($on-phone - 50px);
