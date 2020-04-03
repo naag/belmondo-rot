@@ -19,6 +19,6 @@ cover:
 
 <p>Ja ich hab' in der Sargassosee / die Aale beim Paaren gesehen / und ich hab' in der Sargassosee / die Aale beim Paaren gesehen / der Sex war roh und ehrlich.</p>
 
-<p>Engumschlungene Leiber / der One Night Stand der Millionen / geschlängelt in den Wogen / bis zur letzten Konsequenz / bis zur letzten Konsequenz / vereint im Glück / vereint im Glück im Moment / im Moment zu zweit.</p>
+<p>Engumschlungene Leiber / der One-Night-Stand der Millionen / geschlängelt in den Wogen / bis zur letzten Konsequenz / bis zur letzten Konsequenz / vereint im Glück / vereint im Glück im Moment / im Moment zu zweit.</p>
 
 <p>Zu zweit / verschlungen zu zweit / bis zur letzten Konsequenz / zu zweit / verschlungen zu zweit.</p>
