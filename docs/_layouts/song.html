@@ -13,7 +13,10 @@ layout: default
     </h2>
   </div>
 
+  <audio src="{{ page.audio | absolute_url }}" controls preload="auto" controlsList="nodownload"></audio>
+
   <div class="polaroid polaroid-wide">
     {{ content }}
+
   </div>
 </div>
