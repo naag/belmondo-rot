@@ -75,6 +75,7 @@ strong {
 
 a {
   color: $text-color;
+  text-decoration: none;
 }
 
 a:focus {
@@ -157,5 +158,59 @@ figcaption {
 }
 
 .logo {
-  margin: 2rem 0 0 0;
+  margin: 2rem 0;
+  width: ($on-phone - 80px);
+
+  @media (min-width: $on-laptop) {
+    width: ($on-phone - 20px);
+  }
+}
+
+
+
+
+
+.polaroid {
+  background-color: white;
+  margin: 0 20px 3rem 20px;
+  padding: 1rem;
+  box-shadow: 9px 9px 10px rgba(#000, 0.05);
+  width: ($on-phone - 80px);
+
+  @media (min-width: $on-laptop) {
+    width: ($on-phone - 52px);
+  }
+}
+
+.polaroid-wide {
+  @media (min-width: $on-laptop) {
+    padding: 1rem 40px;
+    width: ($on-laptop - 80px);
+  }
+}
+
+.polaroid img {
+  margin: 0 0 1rem 0;
+}
+
+.polaroid h2 {
+  font-family: $font-family-deco;
+  margin: 0;
+}
+
+.polaroid p {
+  margin-bottom: 1rem;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.song-list {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }

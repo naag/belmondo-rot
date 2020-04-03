@@ -1,0 +1,11 @@
+- title: Aale
+  url: songs/aale.html
+  cover:
+    src: assets/images/aale_cropped.jpg
+    title: Aale
+
+- title: Monument
+  url: songs/monument.html
+  cover:
+    src: assets/images/monument2_cropped.jpg
+    title: Monument

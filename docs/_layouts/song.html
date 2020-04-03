@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+{% include head.html %}
+
+<div class="center" itemscope itemtype="http://schema.org/MusicRecording">
+  <div class="polaroid">
+    <img src="{{ page.cover.src | absolute_url }}" alt="{{ page.cover.title }}"  />
+
+    <h2 itemprop="name">
+      {{ page.title }}
+    </h2>
+  </div>
+
+  <div class="polaroid polaroid-wide">
+    {{ content }}
+  </div>
+</div>
