@@ -7,7 +7,7 @@ cover:
   title: Aale
 ---
 
-<p>Zigarette danach, Dein Gesicht / ich liebe Deinen Blick / doch eines weißt Du nicht / ich sag's Dir, Geheimnisse will ich nicht.</p>
+<p>Zigarette danach, dein Gesicht / ich liebe deinen Blick / doch eines weißt du nicht / ich sag's dir, Geheimnisse will ich nicht.</p>
 
 <p>Und ich hab in der Sargassosee / die Aale beim Paaren gesehen / ja ich hab in der Sargassosee / die Aale beim Paaren gesehen.</p>
 
@@ -15,7 +15,7 @@ cover:
 
 <p>Und ich hab in der Sargassosee / die Aale beim Paaren gesehen / ja ich hab in der Sargassosee / die Aale beim Paaren gesehen / der Sex war roh und ehrlich.</p>
 
-<p>Davon willst Du jetzt nichts wissen / Du planst für morgen für uns zwei / Du fragst mich nach 'ner zweiten Runde / ich lächele und bin dabei.</p>
+<p>Davon willst du jetzt nichts wissen / du planst für morgen für uns zwei / du fragst mich nach 'ner zweiten Runde / ich lächele und bin dabei.</p>
 
 <p>Ja ich hab in der Sargassosee / die Aale beim Paaren gesehen / und ich hab in der Sargassosee / die Aale beim Paaren gesehen / der Sex war roh und ehrlich.</p>
 
