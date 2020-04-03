@@ -1,5 +1,12 @@
+html {
+  background: url(../images/background4.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
-  background: $brand-color;
   color: $text-color;
   font-family: $font-family;
   font-size: 1.3125em;
@@ -174,7 +181,7 @@ figcaption {
   background-color: white;
   margin: 0 20px 3rem 20px;
   padding: 1rem;
-  box-shadow: 9px 9px 10px rgba(#000, 0.05);
+  box-shadow: 9px 9px 10px rgba(#000, 0.25);
   width: ($on-phone - 80px);
 
   @media (min-width: $on-laptop) {
