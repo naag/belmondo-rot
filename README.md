@@ -1,3 +1,3 @@
-# Bellmondo Rot
+# Belmondo Rot
 
-Jekyll site for https://www.bellmondo-rot.de
+Jekyll site for https://www.belmondo-rot.de
